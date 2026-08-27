@@ -497,7 +497,7 @@ h1, h2, h3 {
 
 /* ---- inside the room (video) --------------------------------------- */
 
-.room { padding: clamp(80px, 10vw, 140px) 0 0; }
+.room { padding: 0 0 clamp(80px, 11vw, 150px); }
 .player {
   position: relative; margin: 0;
   border: 1px solid var(--line-strong);
