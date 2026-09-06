@@ -5,6 +5,7 @@ await mkdir("dist/server", { recursive: true });
 await mkdir("dist/client", { recursive: true });
 await cp("index.html", "dist/client/index.html");
 await cp("thanks.html", "dist/client/thanks.html");
+await cp("friday.html", "dist/client/friday.html");
 await cp("assets", "dist/client/assets", { recursive: true });
 await cp("worker/static.js", "dist/server/index.js");
 
